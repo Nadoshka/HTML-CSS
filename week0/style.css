@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+main {
+background-image: linear-gradient(
+    to right,
+    rgba(238, 130, 238, 0),
+    rgba(2238, 130, 238, 1)
+);
+}
+
+.logo {
+float: left;
+width: 10%;
+min-width: 100px;
+}
+
+#navigation li {
+float: right;
+list-style-type: none;
+margin: 4% 4% 0 0;
+font-size: 1.3em;
+font-weight: bold;
+}
+
+.welcome-image {
+display: block;
+clear: both;
+width: 100%;
+}
+/* float clearfix */
+header:after {
+content: "";
+display: block;
+clear: both;
+}
+
+#navigation a {
+text-decoration: none;
+color: purple;
+}
+
+#navigation a:hover {
+color: black;
+}
+
+.home {
+position: fixed;
+bottom: 5%;
+right: 1%;
+width: 5%;
+}
+
+.icon {
+width: 20px;
+margin: 0 0.3%;
+}
+
+.text-info {
+font-family: open sans, sans-serif;
+font-size: 20px;
+line-height: 2;
+}
+
+h2,
+h3 {
+font-size: 1.75em;
+}
+
+section img {
+float: right;
+width: 40%;
+margin-left: 2%;
+}
+/*clearfix image outside border*/
+
+section:after,
+footer:before {
+content: "";
+display: block;
+clear: both;
+}
+
+.contact-info {
+float: left;
+margin: 0 1%;
+}
+
+.contact-info ul {
+list-style-type: none;
+padding: 0;
+}
+
+.contact-info li {
+margin-top: 10%;
+}
+section {
+border: 1px groove;
+border-radius: 20px;
+padding: 1%;
+margin: 0 1% 1%;
+}
+footer {
+text-align: center;
+}
+section ul {
+font-size: 1.5em;
+}
+
+section ul a {
+text-decoration: none;
+color: black;
+}
+
+section ul a:hover {
+color: blue;
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        float: none;
+        width: 100px;
+        margin-left: calc((100% - 100px) / 2);
+    }
+    #navigation li {
+        padding-bottom: 20px;
+        font-size: 1em;
+    }
+    section img {
+        float: none;
+        width: 94%;
+    }
+    section {
+        padding: 3%;
+    }
+    .home {
+        bottom: 30%;
+        width: 40px;
+    }
+    span {
+        display: block;
+        margin-top: 10px;
+    }
+}
+  
