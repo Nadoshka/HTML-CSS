@@ -1,3 +1,3 @@
 # html-css
-Assignment website:
++ Assignment website:
 https://nadoshka.github.io/html-css/week0/
