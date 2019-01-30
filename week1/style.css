@@ -1,0 +1,44 @@
+body{
+    margin: 20px;
+    padding: 40px;
+}
+.summary{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+h1{
+    font-family: "Times New Roman", Times, serif;
+    border-width: 2px;
+    border-bottom-style: solid;
+    padding: 5px;
+}
+h2{
+    text-decoration: underline;
+    margin-top: 40px;
+    font-family: helvetica;
+}
+.title-position{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+section{
+    font-size: 15px;
+}
+img{
+    float: right;
+    margin-left: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    height: 30vh;
+    border: ridge black;
+    border-radius: 10px;
+}
+ul{
+    font-size: 16px;
+}
+table{
+    width: 80%;
+}
+.note{
+font-style: italic;
+}
