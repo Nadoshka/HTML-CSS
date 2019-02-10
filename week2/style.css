@@ -11,6 +11,7 @@ h1 {
   background-color: rgba(72, 72, 88, 0.3);
   color: rgb(0, 162, 255);
 }
+
 h2 {
   margin-top: 20px;
   padding: 10px;
@@ -18,14 +19,17 @@ h2 {
   font-size: 35px;
   clear: both;
 }
+
 h3 {
   font-size: 20px;
   color: rgb(0, 162, 255);
 }
+
 #grid-flex {
   display: flex;
   flex-wrap: wrap;
 }
+
 li {
   width: calc(50% - 10px);
   padding: 10px;
@@ -33,15 +37,18 @@ li {
   margin: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   list-style-type: none;
-  transition: all 1s;
+  transition: all 2s;
 }
+
 li:hover {
   background-color: rgb(188, 188, 238);
   transform: scale(1.04);
 }
+
 li:first-child {
   width: calc(100% - 10px);
 }
+
 .grid-item img {
   width: 40%;
   float: left;
@@ -49,20 +56,30 @@ li:first-child {
   margin-right: 10px;
   margin-top: 10px;
   border-radius: 5px;
+  position: relative;
 }
+.grid-item:hover img {
+  animation-name: flying;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
 .grid-item p {
   margin-top: 20px;
   margin-left: 20px;
 }
+
 #grid-floats li {
   float: left;
   height: 300px;
   overflow: scroll;
 }
+
 @media screen and (min-width: 769px) {
   li {
     width: calc(25% - 10px);
   }
+
   li:first-child {
     width: calc(50% - 10px);
   }
@@ -72,8 +89,15 @@ li:first-child {
   li {
     width: calc(100% / 3 - 10px);
   }
+
   li:first-child,
   li:nth-child(2) {
     width: calc(100% / 2 - 10px);
+  }
+}
+@keyframes flying {
+  0% {
+    top: 3px;
+    bottom: 3px;
   }
 }
