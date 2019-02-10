@@ -75,6 +75,16 @@ li:first-child {
   overflow: scroll;
 }
 
+@media screen and (min-width: 426px){
+  li {
+    width: calc(100% / 3 - 10px);
+  }
+
+  li:first-child,
+  li:nth-child(2) {
+    width: calc(100% / 2 - 10px);
+  }
+
 @media screen and (min-width: 769px) {
   li {
     width: calc(25% - 10px);
@@ -85,7 +95,7 @@ li:first-child {
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 426px){
   li {
     width: calc(100% / 3 - 10px);
   }
