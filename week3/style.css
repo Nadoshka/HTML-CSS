@@ -1,0 +1,315 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "RO Sans", Calibri, sans-serif;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav-container {
+  background-color: #01689b;
+  position: relative;
+  height: min-content;
+}
+
+.logo {
+  margin-left: calc(50% - 25px);
+  max-width: calc(50% - 25px);
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  font-weight: 100;
+  padding-left: 10px;
+}
+
+.nav li {
+  padding: 10px 20px 10px 0;
+  list-style: none;
+}
+
+#home {
+  align-self: center;
+  font-size: 22px;
+  padding-left: 10px;
+}
+
+#home:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.search {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding-right: 25px;
+  padding-left: 8px;
+}
+
+.search input {
+  font-size: 16px;
+  padding-left: 15px;
+  height: 48px;
+  flex-grow: 1;
+}
+
+.search-icon {
+  width: 15px;
+  margin-left: 0;
+
+.search button {
+  width: 35px;
+  background-color: #000;
+  border: 3px solid #000;
+}
+
+.background-image {
+  position: absolute;
+  width: 100%;
+  min-width: 700px;
+  padding: 0;
+  margin: 0;
+  z-index: -1000;
+}
+
+.list {
+  background-color: white;
+  padding: 15px 15px 20px 15px;
+  margin: 20px 15px 50px;
+  z-index: 10;
+}
+
+.list h3 {
+  font-size: 26px;
+  font-weight: normal;
+}
+
+.menue-list {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.menue-list li {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: gray;
+}
+
+.list-style {
+  padding-right: 10px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.explanation-section .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f3f3f3;
+}
+
+hr {
+  margin: 50px 15px 20px 15px;
+  border-color: rgba(183, 179, 179, 0.3);
+  width: 100%;
+}
+
+.section-image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.head-title {
+  padding-left: 10px;
+  width: 100%;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+
+.articles .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sec {
+  width: 100%;
+  padding: 0 15px;
+  margin-bottom: 50px;
+}
+
+.wrapper-nieuws .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nieuws {
+  padding: 10px 10px;
+  width: 100%;
+}
+
+.exp {
+  font-size: 1rem;
+  color: #01689b;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 0.75em;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.aside {
+  border: solid black 1px;
+  font-size: 20px;
+  width: 40%;
+  text-align: center;
+  margin: 10px 10px 30px 10px;
+}
+
+.wrapper .aside {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.word {
+  color: #01689b;
+}
+
+.word1 {
+  color: rgb(169, 0, 97);
+}
+
+.header-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.explanation-item {
+  width: 100%;
+  margin-left: 10px;
+  padding: 10px 10px;
+  margin-top: 10px;
+}
+
+.explanation-item h3 {
+  color: #01689b;
+  font-size: 1.35em;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.footer .wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #01689b;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  padding: 30px 20px 20px 20px;
+  margin-bottom: 20px;
+}
+
+.column li {
+  list-style-type: none;
+  margin: 10px 10px 10px auto;
+}
+
+.column {
+  margin-right: 20px;
+}
+
+.after-footer {
+  margin: 50px auto;
+}
+
+.languages ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.languages ul li {
+  border: 2px solid rgb(178, 215, 238);
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.languages li.fot {
+  font-weight: bold;
+  border: none;
+}
+
+@media screen and (min-width: 427px) {
+  .explanation-item {
+    width: calc(100% / 2 - 10px);
+  }
+
+  .sec {
+    width: calc(100% / 2);
+  }
+
+  .nieuws {
+    width: calc(100% / 2);
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .search {
+    width: 30%;
+    position: absolute;
+    right: 10px;
+    top: 80px;
+    z-index: 3;
+  }
+
+  .list {
+    width: 32%;
+  }
+
+  .explanation-item {
+    width: calc(100% / 3 - 10px);
+  }
+
+  .sec {
+    width: calc(100% / 3);
+  }
+
+  .nieuws {
+    width: calc(100% / 4);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-container .wrapper {
+    position: relative;
+  }
+  .search {
+    right: 0;
+  }
+}
