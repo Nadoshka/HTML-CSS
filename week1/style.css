@@ -59,6 +59,9 @@ ul{
 table{
     width: 80%;
 }
+bold-text {
+    font-weight: bold;
+}
 .note{
 font-style: italic;
 }
